@@ -1,0 +1,12 @@
+3.1 Preencha as lacunas em cada uma das seguintes sentenças:
+a) Uma casa está para uma planta arquitetônica assim como um(a) (_objeto_) está para uma classe.
+b) Toda definição de classe contém a palavra-chave (_class_) seguida imediatamente do nome da classe.
+c) Em geral, uma definição de classe é armazenada em um arquivo com a extensão de nome do arquivo (_.h_).
+d) Cada parâmetro em um cabeçalho de função deve especificar tanto um(a) como um(a) (_tipo_).
+e) Quando cada objeto de uma classe mantém sua própria cópia de um atributo, a variável que representa o atributo também é conhecida
+como um(a) .
+f) A palavra-chave public é um(a) .
+g) O tipo de retorno indica que uma função realizará uma tarefa, mas não retornará nenhuma informação quando completar
+sua tarefa.
+h) A função da biblioteca <string> lê caracteres até um caractere nova linha ser encontrado, então copia esses caracteres
+para a string especificada.
