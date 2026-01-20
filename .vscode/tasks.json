@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build C++ com g++", // Nome da tarefa
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe", // OBRIGATÓRIO SER G++.EXE
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-ggdb",
+                "-O2",
+                "-DNDEBUG",
+                "-pedantic-errors",
+                "-Wall",
+                "-std=c++17",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compilador correto para C++"
+        }
+    ]
+}
